@@ -1,0 +1,330 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px 20px;
+  }
+    
+  header {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: wheat;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    font-size: 110%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: rgb(245, 222, 179);
+    text-decoration: none;
+    font-family: 'Fredericka the Great', cursive;
+   
+  }
+  
+  nav ul li a:hover {
+    color: #ccc;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .highlight {
+    color: #ff6464;
+  }
+  
+  .proyecto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .proyecto img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 4px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+  }
+  
+  p {
+    margin-bottom: 0;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background-color: #ff6464;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #ff4a4a;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  .ir-arriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff6464;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .ir-arriba img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  /* Estilos específicos por sección */
+  .inicio-section {
+    background-image: url(img/Fotovialacteapersonal.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    padding: 100px 0;
+    text-align: center;
+  }
+ 
+  .inicio-section h1 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align:initial;
+    font-weight: 400;
+    color: wheat;
+    font-size: 72px;
+  }
+  
+  .inicio-section h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align:initial;
+    font-weight: 400;
+    color: wheat;
+    font-size: 30px;
+  }
+  .inicio-section p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.8;
+  }
+  
+  .proyectos-section {
+    background-color: black;
+    padding: 50px 0;
+  }
+  .proyectos-section h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 250%;
+    font-weight: 400;
+    color: wheat;
+  }
+  .proyectos-section h3 a{
+    font-family: 'Fredericka the Great', cursive;
+    color: wheat;
+    font-weight: 400;
+    font-size: 150%;
+    text-decoration: none;
+  }
+  .proyectos-section p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.8;
+  }
+/* SECCIÓN SOBRE MI  */
+
+.sobre-mi-section {
+    background-color: black;
+    padding: 80px 80px;
+  }
+#sobremi{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.imagenperfil{
+  flex: 1;
+ text-align: center;
+}
+.textoperfil{
+  flex: 1;
+text-align: justify;
+}
+  .sobre-mi-section img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .sobre-mi-section h2{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 230%;
+    font-weight: 400;
+    color: wheat;
+    padding-bottom: 45px;
+  }
+  .sobre-mi-section p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .sobre-mi-section ul li{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .proyectos-section{
+    background-color: black;
+    padding: 80px 80px;
+  }
+  .contacto-section {
+    background-color: black;
+    padding: 80px 80px;
+  }
+  .contacto-section h2{
+    color: wheat;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size:250%;
+}
+  .contacto-section label{
+    color: wheat;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 120%;
+}
+  
+  .contacto-section form button {
+    color: wheat;
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 125%;
+    color: black;
+    background-color: #ff4a4a;
+  }
+  
+  footer p {
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: 400;
+    font-size: 200%;
+    font-size: 14px;
+    margin-bottom: 0;
+    color: #aaa;
+  }
+  .redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .redes-sociales .social-icon i{
+    color: #fff;
+    width: 60px;
+    height: 40px;
+    font-size: 50px;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+  }
+  
+  @media (min-width: 1024px){
+    .inicio-section h1:hover {
+      transform: scale(1.05);
+    }
+    .inicio-section h3:hover {
+      transform: scale(1.05);
+    }
+    nav ul li a:hover{
+      transform: scale(1.05);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    header {
+      padding: 10px 0;
+    }
+  
+    nav ul li {
+      margin-right: 10px;
+    }
+  
+    .proyecto img {
+      max-width: 50%;
+    }
+    .sobre-mi-section img{
+      max-width: 50%;
+    }
+    .sobre-mi-section p{
+      font-size: 20%;
+    }
+    .sobre-mi-section ul li{
+      font-size: 20%;
+    }
+   
+  }
+  

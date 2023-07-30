@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Montserrat:ital,wght@1,100;1,200;1,300;1,400;1,500&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles3.css">
+  <script src="script.js"></script>
+
+  <title>El Profe - Mati Navarro</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio" class="inicio-section" animation: myAnim 5s ease-out 0s 1 normal forwards;>
+    <div class="container">
+      <h1>Matías Navarro</h1>
+      <h3>El profe </h3>
+    </div>
+  </section>
+
+  <section id="proyectos" class="proyectos-section">
+    <div class="container">
+      <h2>Mis Proyectos</h2><br>
+      <div class="proyecto">
+        <h3><a href="https://matonp93.github.io/PF-Navarro/index.html" target="_blank">Rincón Pastelero</a></h3><br>
+        <img src="img/rinconpastelero.png" alt="RincónPastelero"><br>
+        <p>Motivado por práctica personal, me embarqué en la elaboración de esta página a modo de portafolio personal
+          del usuario.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="sobre-mi-section">
+     
+     <div class="container">
+      <h2>Sobre mí</h2>
+       <div id="sobremi">
+        <div class="imagenperfil">
+          <img src="img/Personal.jpg" alt="SobreMi">
+        </div>
+        <div class="textoperfil">
+          <p>¡Hola! Soy <span class="highlight">Matías Navarro</span>, el profe. <br>
+            Me encuentro incursionando en el mundo de la programación, cosa que en mi adolescencia no tuve la
+            oportunidad.
+            <br>
+            Soy estudiante desde que tengo memoria y espero no dejar de serlo, actualmente formo parte del programa
+            Jovenes a Programar. <br>
+
+            Apasionado de la Física y su enseñanza. <br>
+            Continuamente buscando lo mejor. <br>
+            Incursionando recientemente en el placer de la fotografía <br>
+
+            Un poco acerca de mi formación: <br>
+          <ul>
+            <li>
+              Profesor de Educación Media, Especialidad Física. Instituto de Profesores Artigas. 2018
+            </li>
+            <li>
+              Diplomatura Especialización en Física. Udelar. 2021
+            </li>
+          </ul>
+          </p>
+        </div>
+      </div>
+  </section>
+
+  <section id="contacto" class="contacto-section">
+    <div class="container">
+      <h2>Contacto</h2> <br>
+      <form>
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+     <div class="container">
+      <div class="redes-sociales">
+        <a href="https://github.com/matonp93" target="_blank" class="social-icon">
+          <i class="fa-brands fa-github" style="color: #f5dec5;"></i></a>
+        <a href="https://www.linkedin.com/in/mat%C3%ADas-navarro-pricolli-784987177" target="_blank"
+          class="social-icon">
+          <i class="fa-brands fa-linkedin" style="color: #f5deb3;"></i>
+        </a>
+      </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 ElProfe</p>
+    </div>
+   
+  </footer>
+  <a href="#header" class="ir-arriba"><img src="img/arrow-up.png" alt="Ir arriba"></a>
+  
+  <script src="https://kit.fontawesome.com/c809235686.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
